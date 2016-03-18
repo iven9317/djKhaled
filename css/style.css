@@ -390,3 +390,8 @@
 .nav .active:hover{
     background-color:black;
 }
+
+video {
+    width: 100%;
+    height: auto;
+}
