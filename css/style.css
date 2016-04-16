@@ -13,6 +13,24 @@
         width:100%;
         top:0px;
     }
+
+    .contact1{
+        position:relative;
+        top:100px;
+        left:800px;
+        font-family: 'Khand', sans-serif; font-weight: 500;
+        display: inline-block;
+        color:white;
+    }
+
+    .contact2{
+        position:relative;
+        top:180px;
+        left:70px;
+        font-family: 'Khand', sans-serif; font-weight: 500;
+        color: white;
+    }
+
     .logo img{
         position:relative;
         width:13%;
@@ -174,13 +192,17 @@
     }
 
     .footer{
-        position:relative;
-        top:950px;
+        position:fixed;
+        top:845px;
         width:100%;
-        text-align: center;
         color:white;
         background-color: black
     }
+
+    .footer_al{
+        text-align: center;
+    }
+
     .footer a{
         text-decoration: none;
         border-bottom: 1px solid #0d2c40;
@@ -225,15 +247,43 @@
         border: 1px solid black;
         padding: 5px;
     }
+
+    .table_text_color{
+        color:white;
+    }
+
+    .settable{
+        background-color: #5c5c8a;
+        opacity: 0.8;
+        width: 50%;
+        margin-left: 400px;
+        margin-top: 50px;
+        text-align:center;
+        border-color: white;
+    }
+
     .gametable{
         margin-left: auto;
         margin-right:auto;
+    }
+
+    .footerset{
+        display:inline-block;
+        position:relative;
+        left:0;
+        margin-left: 0;
+    }
+    .footerpic{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
     }
 
     .contact_form{
         position:relative;
         top:500px;
     }
+
 
     @media(max-width: 888px){
         .index_pics div{
@@ -276,6 +326,8 @@
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
+
+  overflow: hidden;
     
   /* Set up positioning */
   position: fixed;
