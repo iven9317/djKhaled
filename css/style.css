@@ -308,7 +308,7 @@
         transform: translate(-50%, -50%);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .fullscreen-bg {
         background: url('http://www.ew.com/sites/default/files/styles/tout_image_612x380/public/i/%5Bcurrent-date%3Acustom%3AY%5D/%5Bcurrent-date%3Acustom%3Am%5D/%5Bcurrent-date%3Acustom%3Ad%5D/dj-khaled.jpg?itok=7jEVtFBI') center center / cover no-repeat;
     }
