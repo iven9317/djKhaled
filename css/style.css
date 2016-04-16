@@ -192,8 +192,8 @@
     }
 
     .footer{
-        position:fixed;
-        top:845px;
+        position:absolute;
+        top:1300px;
         width:100%;
         color:white;
         background-color: black
