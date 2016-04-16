@@ -315,6 +315,8 @@
 
     .fullscreen-bg__video {
         display: none;
+        left: 50%;
+        margin-left: -512px;
     }
 
     .bg {
